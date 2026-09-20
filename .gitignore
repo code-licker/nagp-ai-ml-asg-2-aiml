@@ -1,0 +1,16 @@
+# Environment variables and secrets (NEVER commit API keys!)
+.env
+*.env
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Vector database storage & temp cache
+chroma_db/
+.chroma/
+*.log
